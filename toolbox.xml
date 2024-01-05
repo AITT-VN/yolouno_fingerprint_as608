@@ -1,0 +1,23 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="CB VÂN TAY" colour="#ff9933" icon="fingerprint">
+    <block type="uno_fingerprint_init"/>
+	  <block type="uno_fingerprint_create">
+      <value name="ID">
+          <shadow type="math_number"><field name="NUM">1</field></shadow>
+      </value>
+    </block>
+    <block type="uno_fingerprint_result"></block>
+    <block type="uno_fingerprint_verify"></block>
+    <block type="uno_fingerprint_check">
+      <value name="ID">
+          <shadow type="math_number"><field name="NUM">1</field></shadow>
+      </value>
+    </block>
+    <block type="uno_fingerprint_delete">
+      <value name="ID">
+          <shadow type="math_number"><field name="NUM">1</field></shadow>
+      </value>
+    </block>
+    <block type="uno_fingerprint_clear"></block>
+  </category>
+</xml>

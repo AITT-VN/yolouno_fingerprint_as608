@@ -1,0 +1,17 @@
+{
+    "name": "Cảm biến vân tay",
+    "description": "Mục mở rộng cho Yolo UNO sử dụng cảm biến vân tay AS608",
+    "libs": [
+        "AS608.py",
+        "fingerprint.py"
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+        "en": "languages/en.js",
+        "vi": "languages/vi.js"
+    },
+    "poster": "poster.jpg"
+}
